@@ -10,6 +10,8 @@ fun example() {
     val square: (Int) -> Int = { x -> x * x }
 
     sum(1, square(2)) == 5
+
+
 }
 
 fun todoTask4(collection: Collection<Int>): Nothing = TODO(
